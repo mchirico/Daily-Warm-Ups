@@ -1,17 +1,16 @@
-package day_1_test
+package day0_test
 
 import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	//"github.com/mchirico/Daily-Warm-Ups/warmup/day-1"
+	"github.com/mchirico/Daily-Warm-Ups/pkg/day0"
 )
 
 var _ = Describe("Stuff", func() {
-
 	Context("initially", func() {
 
-		s := day_1.S()
+		s := day0.S{}
 		s.Name = "Zoe"
 
 		It("Has to have name", func() {
@@ -19,5 +18,4 @@ var _ = Describe("Stuff", func() {
 		})
 
 	})
-
 })

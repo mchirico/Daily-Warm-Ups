@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b580a5b-29aa-49cb-90b9-efd3d767b474" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/warmup/day-1/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/warmup/day-1/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/day0/day0.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/day0/day0_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/day0/stuff_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,12 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../../../.." />
+      </list>
+    </option>
+    <option name="useGoPathFromSystemEnvironment" value="false" />
   </component>
   <component name="ProjectId" id="1mbz6xK3Pv2uGIhHCUYaPa7G3vt" />
   <component name="ProjectViewState">
@@ -22,16 +31,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.google.cloudcode.ide_session_index" value="20210104_0000" />
+    <property name="com.google.cloudcode.ide_session_index" value="20210104_0002" />
+    <property name="configurable..is.expanded" value="false" />
+    <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
-  <component name="RunManager" selected="Go Test.Test in example.com/m/v2">
+  <component name="RunManager" selected="Go Test.TestName in github.com/mchirico/Daily-Warm-Ups/pkg/day0">
     <configuration name="go build example.com/m/v2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Daily-Warm-Ups" />
       <working_directory value="$PROJECT_DIR$" />
@@ -52,8 +65,20 @@
       <pattern value="^\QTest\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestName in github.com/mchirico/Daily-Warm-Ups/pkg/day0" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Daily-Warm-Ups" />
+      <working_directory value="$PROJECT_DIR$/pkg/day0" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/mchirico/Daily-Warm-Ups/pkg/day0" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestName\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestName in github.com/mchirico/Daily-Warm-Ups/pkg/day0" />
         <item itemvalue="Go Test.Test in example.com/m/v2" />
         <item itemvalue="Go Build.go build example.com/m/v2" />
       </list>
