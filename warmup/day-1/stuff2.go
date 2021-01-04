@@ -1,4 +1,4 @@
-package day_2
+package day-2
 
 type S2 struct {
 	Name string
